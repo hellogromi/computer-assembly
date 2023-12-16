@@ -1,4 +1,4 @@
-print('Hello, how are you, let's start?')
+print("Hello, how are you, let's start?")
 answer = input()
 total_cost = 0
 if answer == "yes":
@@ -14,7 +14,7 @@ if answer == "yes":
   total_cost += cost3
   print("What about cooling the processor?")
   cost4 = int(input())
-  totsl_cost += cost4
+  total_cost += cost4
   print("How much does the case cost?")
   cost5 = int(input())
   total_cost += cost5
@@ -26,8 +26,7 @@ if answer == "yes":
   total_cost += cost7
   print("Enter the cost of the power supply")
   cost8 = int(input())
-  totsl_cost += cost8
+  total_cost += cost8
   print(total_cost)
 else:
-  print("Have a good day!)
-  
+  print("Have a good day!")
