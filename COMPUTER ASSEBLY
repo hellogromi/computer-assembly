@@ -1,0 +1,33 @@
+print('Hello, how are you, let's start?')
+answer = input()
+total_cost = 0
+if answer == "yes":
+  print("Let's start with the motherboard")
+  print("How much does your motherboard cost?")
+  cost1 = int(input())
+  total_cost += cost1
+  print("Enter the cost of the processor")
+  cost2 = int(input())
+  total_cost += cost2
+  print("How much does your video card cost?")
+  cost3 = int(input())
+  total_cost += cost3
+  print("What about cooling the processor?")
+  cost4 = int(input())
+  totsl_cost += cost4
+  print("How much does the case cost?")
+  cost5 = int(input())
+  total_cost += cost5
+  print("Enter the cost of RAM")
+  cost6 = int(input())
+  total_cost += cost6
+  print("How much does a hard drive or SSD cost?")
+  cost7 = int(input())
+  total_cost += cost7
+  print("Enter the cost of the power supply")
+  cost8 = int(input())
+  totsl_cost += cost8
+  print(total_cost)
+else:
+  print("Have a good day!)
+  
