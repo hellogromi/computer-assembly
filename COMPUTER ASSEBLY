@@ -2,6 +2,11 @@ print("Hello, how are you, let's start?")
 answer = input()
 total_cost = 0
 if answer == "yes":
+  print("In what volute should the calculations be carried out?")
+  print("$")
+  print("€")
+  print("₽")
+  volute = input()
   print("Let's start with the motherboard")
   print("How much does your motherboard cost?")
   cost1 = int(input())
@@ -27,6 +32,6 @@ if answer == "yes":
   print("Enter the cost of the power supply")
   cost8 = int(input())
   total_cost += cost8
-  print(total_cost)
+  print(total_cost, volute)
 else:
   print("Have a good day!")
